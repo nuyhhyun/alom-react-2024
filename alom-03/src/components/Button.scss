@@ -1,4 +1,6 @@
+$Label-Normal: #171719;
 $Primary-Normal: #0066FF;
+$Static-White:#FFFFFF;
 
 @mixin button-layout {
   display: flex;
@@ -9,8 +11,8 @@ $Primary-Normal: #0066FF;
 }
 
 @mixin button-style {
-  border-radius: 10px;
-  border: 1px solid var(--Primary-normal, #06F);
+  border-radius: 10px; 
+  background: var(--Primary-normal, #06F);
 }
 
 .button {
