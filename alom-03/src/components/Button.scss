@@ -1,0 +1,19 @@
+$Primary-Normal: #0066FF;
+
+@mixin button-layout {
+  display: flex;
+  padding: 12px 28px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-style {
+  border-radius: 10px;
+  border: 1px solid var(--Primary-normal, #06F);
+}
+
+.button {
+  @include button-layout;
+  @include button-style;
+}

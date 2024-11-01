@@ -3,6 +3,7 @@
 ### Prerequisites
 - node (18+)
 - npm
+- sass
 
 ### How to run
 - npm i
